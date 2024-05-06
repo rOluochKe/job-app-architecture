@@ -30,7 +30,7 @@ jobs:
     name: Deploy To Vercel
     runs-on: ubuntu-latest
     needs: [code-checks, e2e]
-    if: github.repository_owner == 'roluochke'
+    if: github.repository_owner == 'alan2207'
     permissions:
       contents: read
       deployments: write
